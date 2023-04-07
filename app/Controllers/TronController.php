@@ -16,7 +16,6 @@ class TronController extends BaseController
         // Buat akun Tron baru
         $account = $tron->generateAddress();
 
-        // Ambil data dari objek akun dengan method getRawData()
         $data = [
             'rawdata' => $account->getRawData()
         ];
