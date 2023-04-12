@@ -77,30 +77,30 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="form-content">
-                                <form action="<?= base_url('tron') ?>" method="post">
+                                <form action="<?php echo base_url('tron'); ?>" id="tronForm" method="post">
                                     <div class="row justify-content-center">
                                         <div class="col-md-6">
                                             <div class="single-input">
                                                 <label>Base58</label>
-                                                <input type="text" value="<?php echo $rawdata['address_base58']; ?>" readonly>
+                                                <input type="text" id="base58" value="<?php echo $rawdata['address_base58']; ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="single-input">
                                                 <label>Address Hex</label>
-                                                <input type="text" value="<?php echo $rawdata['address_hex']; ?>" readonly>
+                                                <input type="text" id="addrhex" value="<?php echo $rawdata['address_hex']; ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="single-input">
                                                 <label>Public key</label>
-                                                <input type="text" value="<?php echo $rawdata['public_key']; ?>" readonly>
+                                                <input type="text" id="pubkey" value="<?php echo $rawdata['public_key']; ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="single-input">
                                                 <label>Private key</label>
-                                                <input type="text" value="<?php echo $rawdata['private_key']; ?>" readonly>
+                                                <input type="text" id="privkey" value="<?php echo $rawdata['private_key']; ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-sm-6 col-10">
@@ -117,7 +117,7 @@
             </div>
         </section>
         <!-- Contact In end -->
-
+        <div id="dataForm"></div>
         <!-- Footer Area Start -->
         <footer class="footer-section">
             <div class="container pt-40">
