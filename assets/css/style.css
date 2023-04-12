@@ -1029,7 +1029,6 @@ p {
   animation: spin 30s linear infinite;
 }
 .banner-section.soccer-bets .overlay {
-  background-image: url(../images/soccer-bets-bg.png), url(../images/soccer-bets-banner-bg.png);
   background-repeat: no-repeat;
   background-position: top 100px right 199px, top 95px right 170px;
   position: relative;
