@@ -32,7 +32,6 @@ html {
 body {
   font-family: var(--body-font);
   background-color: var(--body-color);
-  background-color: var(--body-color);
   font-size: 18px;
   line-height: 30px;
   padding: 0;
@@ -973,7 +972,7 @@ p {
   animation: spin 30s linear infinite;
 }
 .banner-section.inner-banner .banner-content {
-  padding: 100px 0 180px;
+  padding: 20px 0 150px;
 }
 .banner-section.inner-banner .banner-content .main-content .breadcrumb-area {
   margin-top: 10px;
@@ -3815,7 +3814,7 @@ p {
 }
 
 .contact-section {
-  margin-top: -140px;
+  margin-top: 25px;
   transform: translateZ(10px);
 }
 .contact-section .bg-area {
@@ -3989,7 +3988,7 @@ p {
     padding: 215px 0 100px;
   }
   .banner-section.inner-banner.soccer-bets .overlay .banner-content {
-    padding: 220px 0 230px;
+    padding: 5px 0 130px;
   }
   .banner-section.inner-banner.escrow-bets-banner .overlay .banner-content {
     padding: 220px 0 110px;
@@ -4499,7 +4498,7 @@ p {
     padding: 170px 0 65px;
   }
   .banner-section.inner-banner.soccer-bets .overlay .banner-content {
-    padding: 170px 0 210px;
+    padding: 100px 0 0px;
   }
   .banner-section.inner-banner.soccer-bets.currency-bet .overlay .banner-content {
     padding: 170px 0 190px;

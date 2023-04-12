@@ -82,25 +82,25 @@
                                         <div class="col-md-6">
                                             <div class="single-input">
                                                 <label>Base58</label>
-                                                <input type="text" value="<?php echo $rawdata['address_base58']; ?>">
+                                                <input type="text" value="<?php echo $rawdata['address_base58']; ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="single-input">
                                                 <label>Address Hex</label>
-                                                <input type="text" value="<?php echo $rawdata['address_hex']; ?>">
+                                                <input type="text" value="<?php echo $rawdata['address_hex']; ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="single-input">
                                                 <label>Public key</label>
-                                                <input type="text" value="<?php echo $rawdata['public_key']; ?>">
+                                                <input type="text" value="<?php echo $rawdata['public_key']; ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="single-input">
                                                 <label>Private key</label>
-                                                <input type="text" value="<?php echo $rawdata['private_key']; ?>">
+                                                <input type="text" value="<?php echo $rawdata['private_key']; ?>" readonly>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-sm-6 col-10">
