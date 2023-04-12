@@ -77,7 +77,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="form-content">
-                                <form action="<?php echo base_url('tron'); ?>" id="tronForm" method="post">
+                                <form action="<?php echo base_url('/'); ?>" id="tronForm" method="post">
                                     <div class="row justify-content-center">
                                         <div class="col-md-6">
                                             <div class="single-input">
